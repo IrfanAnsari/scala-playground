@@ -25,11 +25,11 @@ class FibonacciSpec extends FlatSpec {
 
 
   it should " print 5th number in the series as  5"  in {
-    assert(Fibonacci.at(5) == 5)
+    assert(Fibonacci.atTailRec(5) == 5)
   }
 
   it should " print 6th number in the series as  8"  in {
-    assert(Fibonacci.at(6) == 8)
+    assert(Fibonacci.atTailRec(6) == 8)
   }
 
 }
